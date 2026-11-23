@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+    .esquerda {
+        display: flex;
+        width: 15%;
+        background-color: rgb(0, 255, 242);
+    }
+
+    .centro {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        background-color: rgb(0, 255, 76);
+    }
+
+    .centro p {
+        text-align: center;
+        align-items: center;
+    }
+
+    .direita {
+        display: flex;
+        width: 15%;
+        background-color: rgb(170, 79, 255);
+    }
+
+    h1 {
+        background-color: deeppink;
+        border-radius: 50px;
+
+    }
